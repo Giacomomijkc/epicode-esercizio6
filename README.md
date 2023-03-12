@@ -1,45 +1,26 @@
-# epicode-esercizio3
-Amazon Homepage
+# epicode-esercizio6
+Il tuo compito è ricreare una Pinterest card.
 
-Il tuo compito sarà ricreare la pagina Amazon fornita come allegato.
+Scegli un’immagine qualsiasi da Pinterest. Per esempio:
 
-Troverai tutti gli asset necessari in una cartella chiamata "assets".
+Sembra facile? 🙂 ecco cosa deve succedere sull’hover:
 
-L'obiettivo è ricreare la pagina il più simile possibile all'immagine allegata.
+EXTRA:
+
+Anima il pulsante “Save” in modo che scorra verso il basso dal bordo superiore dell’immagine sull’hover.
+
+Anima i bottoni inferiori in modo che scorrano verso l’alto dal bordo inferiore dell’immagine sull’hover.
 
 Suggerimenti:
+Usa questo link alla CDN di Font Awesome per le icone!
 
-1. Font utilizzati nel mockup: Arial, Helvetica, sans-serif.
+Build
+Il tuo compito è migliorare la tua Amazon web page.
 
-2. Puoi usare delle estensioni del browser per controllare i codici colore del mockup, ad esempio ColorZilla
+Ecco i tre task da completare:
 
-3. Analizza il mockup e stabilisci alcune classi comuni con stili riutilizzabili
+1. Fissa la navbar superiore in modo che non scorra insieme alla pagina.
 
-Ad esempio:
+2. Aggiungi un overlay alle immagini: inseriscici un pulsante “Add to cart” e il cuore per mettere un like, come nell’esempio allegato.
 
-.text-center {
-text-align:center;
-width:100%;
-}
-
-.bg-dark {
-color: #eaeded;
-background-color:#222f3e;
-}
-
-.bg-yellow {
-color: #eaeded;
-background-color:#f56600;
-}
-
-.py-1 {
-padding: 1rem 0;
-}
-
-<div class="bg-yellow text-center py-1" >
-     <span>Shop All Holiday Gift Cards</span>
-</div>
-
- <div class="bg-dark text-center py-1">
-    <span>Back to top</span>
- </div>
+3. Assegna questo overlay all’immagine in modo che compaia solamente durante l’hover (quando il cursore ci passa sopra)
