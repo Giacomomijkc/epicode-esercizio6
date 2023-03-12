@@ -1,0 +1,291 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: #E3E6E6;
+}
+
+.blu-title{
+    color: #095470;
+    font-weight: bold;
+    padding-left: 20px;
+    font-size: small;
+}
+
+#header{
+    background: #161e29;
+    height: 60px;
+}
+
+#logo1{
+    max-width: 120px;
+    max-height: 70px;
+    padding-left: 30px;
+    margin-top: 8px;
+}
+
+#navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    background: #232F3E;
+    padding-left: 15px;
+    height: 40px;
+}
+
+.menu-option{
+    padding-left: 20px;
+    padding-right: 0px;
+    color: white;
+    font-weight: lighter;
+    font-size: small;
+}
+
+#banner{
+    background: #ef5615;
+    text-align: center;
+    height: 35px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    color: white;
+    font-weight: lighter;
+    font-size: medium;
+}
+
+#banner-text{
+    padding-top: 8px;
+}
+
+
+#main-content{
+    width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#banner-image{
+    background-image: url("./bg-image.png");
+    height: 195px;
+}
+
+#banner-image-title{
+    padding-top: 60px;
+    text-align: center;
+    margin-bottom: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+#banner-image-paragrafo{
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+    font-weight:bold;
+}
+
+#multi-images{
+    background: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+
+
+#left-title{
+    margin-top: 22px;
+    padding-top: 20px;
+    padding-left: 30px;
+    font-weight: 500;
+    background: white;
+    margin-bottom: -20px;
+}
+
+
+.multi-images-style{
+    border-radius: 27px;
+    width: 270px;
+    height: 400px;
+    object-fit: cover;
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.15);
+    z-index: 2;
+    position: relative;
+    margin-top: 20px;
+    margin-bottom: -30px;
+}
+
+.images_container{
+    position: absolute;
+    width: 22.5%;
+    height: 380px;
+}
+
+
+.button-add-to-cart{
+    position: relative;
+    right: -35px;
+    bottom:20px;
+    background-color: #095470;
+    width: 200px;
+    height: 25px;
+    border: none;
+    border-radius: 5px;
+    color: #E3E6E6;
+    z-index: 1;
+    text-align: center;
+}
+
+.button-like{
+    position: relative;
+    right: -220px;
+    bottom: 385px;
+    z-index: 1;
+    color: #E3E6E6;
+
+
+}
+
+.fa-heart{
+    font-size: 30px;
+}
+
+.fa-cart-plus{
+    padding-right: 10px;
+}
+
+
+.multi-images-style:hover{
+    z-index: 0;
+    transition: ease-in-out;
+    filter: brightness(60%);
+}
+
+.card{
+    width: 22.5%;
+    height: 380px;
+    background-color: white;
+    padding-left: 20px;
+  
+}
+
+.card-column{
+    display: inline-block;
+    padding-left: 12px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-right: 10px;
+}
+
+#card-container{
+    margin-top: 2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.card img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+
+    margin-bottom: none;
+}
+
+.card span{
+    display: block;
+    position: relative;
+    font-size: 8pt;
+
+}
+
+.card p{
+    font-weight: bold;
+}
+
+.card-title{
+    padding-left: 10px;
+    font-size: medium;
+}
+
+.card-link{
+    padding-top: 20px;
+    color: #095470;
+    font-weight: lighter;
+    text-decoration: none;
+    font-size: small;
+    padding-left: 10px;
+
+}
+
+
+.central-title{
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 0px;
+    color: black;
+    font-weight: 500;
+}
+
+#second-image{
+    background-image: url("./img_9.png");
+    height: 400px;
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: -10px;
+    padding-bottom: 0px;
+    margin-top: 20px;
+}
+
+#third-image{
+    background-image: url("./img_10.png");
+    height: 400px;
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: -10px;
+}
+
+#pre-footer{
+    background: #232F3E;
+    text-align: center;
+    height: 35px;
+    margin-top: 30px;
+    margin-bottom: 0px;
+    color: white;
+    font-weight: bold;
+    font-size: 11pt;
+    padding-top: 2px;
+    padding-bottom: 10px;
+
+}
+
+#footer{
+    background: #161e29;
+    height: 170px;
+    align-items: center;
+}
+
+#logo2{
+    max-width: 160px;
+    max-height: 80px;
+    align-content: center;
+    display: grid;
+    margin-left: auto;
+    margin-right: auto;
+    place-items: center;
+    padding-top: 50px;
+}
+
+#link{
+    color: white;
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
