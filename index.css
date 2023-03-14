@@ -13,7 +13,8 @@ body{
 
 #header{
     background: #161e29;
-    height: 60px;
+    height: 100%;
+    width: 100%;
 }
 
 #logo1{
@@ -30,6 +31,14 @@ body{
     background: #232F3E;
     padding-left: 15px;
     height: 40px;
+    width: 100%;
+}
+
+#fisso{
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    top: 0;
 }
 
 .menu-option{
@@ -44,7 +53,7 @@ body{
     background: #ef5615;
     text-align: center;
     height: 35px;
-    margin-top: 30px;
+    margin-top: 120px;
     margin-bottom: 30px;
     color: white;
     font-weight: lighter;
@@ -281,11 +290,3 @@ body{
     color: white;
     text-decoration: underline;
 }
-
-
-
-
-
-
-
-
